@@ -3,7 +3,9 @@
     width: 500;
     background-color: greenyellow;
     padding: 50px;
-    border: 2px blue;
+    border-color: blue;
+    border-style: dashed;
+    border-width: 10px;
 }
 #spanId {
     font-size: 18px;
