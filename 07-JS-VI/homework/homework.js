@@ -53,11 +53,7 @@ function map(array, cb) {
   var nuevoArray = [];
   for (var i = 0; i < array.length; i ++) {
     nuevoArray.push(cb(array[i]));
-    nuevoArray[i] = cb(array[i]);
   }
-  var nuevoArray = array.map(function(el) {
-    return cb(el)
-  });
   return nuevoArray;
 }
 function filter(array) {
