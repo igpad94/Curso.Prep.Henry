@@ -38,9 +38,6 @@ function forEach(array, cb) {
   array.forEach(function(el, index){
     cb(el);
   });
-  for(var i= 0; i< array.lenght; i++){
-    cb(array[i]);
-  }
 }
 
 function map(array, cb) {
